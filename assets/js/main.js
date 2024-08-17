@@ -126,3 +126,11 @@
 	backToTop();
 
 })(window, document, jQuery);
+
+
+    // JavaScript to automatically update the year
+    document.addEventListener("DOMContentLoaded", function() {
+        var currentYear = new Date().getFullYear();
+        document.getElementById("current-year").textContent = currentYear;
+    });
+
